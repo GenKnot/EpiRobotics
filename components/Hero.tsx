@@ -6,10 +6,10 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import Link from "next/link";
 import AOS from 'aos';
 
-import dynamic from 'next/dynamic';
-
-const GLightbox = dynamic(() => import('glightbox'), {
-});
+// import dynamic from 'next/dynamic';
+//
+// const GLightbox = dynamic(() => import('glightbox'), {
+// });
 
 export default function HeroFive() {
     const swiperOptions = {
@@ -88,15 +88,15 @@ export default function HeroFive() {
         });
     }, []);
 
-    useEffect(() => {
-        const lightbox = GLightbox({
-            selector: ".video-play-btn",
-            touchNavigation: true,
-            loop: false,
-        });
-
-        return () => lightbox.destroy();
-    }, []);
+    // useEffect(() => {
+    //     const lightbox = GLightbox({
+    //         selector: ".video-play-btn",
+    //         touchNavigation: true,
+    //         loop: false,
+    //     });
+    //
+    //     return () => lightbox.destroy();
+    // }, []);
 
     return (
         <section className="relative w-full py-3 overflow-hidden bg-white" id="home">
