@@ -176,7 +176,7 @@ export default function HeroFive() {
                                             {item.title2}
                                         </h1>
                                         <div className="flex flex-col gap-8 pt-5 sm:flex-row sm:pt-11">
-                                            <Link href="/services">
+                                            <Link href="#about">
                                                 <div
                                                     className="home-two-btn-bg group bg-buisness-red border-buisness-red py-3 sm:py-[15px]">
                                                 <span
