@@ -7,8 +7,7 @@ export default function Footer() {
         {href: "#home", label: "Home"},
         {href: "#about", label: "About"},
         {href: "#feature", label: "Features"},
-        {href: "#team", label: "Team"},
-        {href: "#contact", label: "Contact"}
+        {href: "#team", label: "Team"}
     ];
 
     return (
