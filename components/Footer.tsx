@@ -65,8 +65,7 @@ export default function Footer() {
                     <div
                         className="flex gap-2 items-center relative group font-medium text-white/50 hover:text-white transition-all duration-300 mt-3.5">
                         <span className="transition-all duration-300">
-                            info@epirobotics.com <br/>
-                            +1 123 456 7890
+                            info@epiro-botics.com
                         </span>
                     </div>
                 </div>
@@ -78,7 +77,7 @@ export default function Footer() {
                         Seize the opportunity to revolutionize medical robotics. Join us in shaping the future of
                         surgical precision.
                     </p>
-                    <Link href="/contact">
+                    <Link href="/">
                         <div className="home-two-btn-bg py-3.5 group bg-buisness-red border-buisness-red w-fit mt-2.5">
                             <span
                                 className="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-buisness-red font-inter">
